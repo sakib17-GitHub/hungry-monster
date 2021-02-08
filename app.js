@@ -55,6 +55,6 @@ const foodDetailsInfo = food =>{
 const displayError = data =>{
     const errorMessage = document.getElementById('error-message');   
     errorMessage.innerHTML=`
-    <h3> Something Went Wrong!!</h3>
-    <h5> Please Check Your Input Text And Search Again. </h5>`
+    <h3> We Can't Find Any Dish With This Name!!</h3>
+    <h5> Please Check Your Input And Search Again. </h5>`
 }
